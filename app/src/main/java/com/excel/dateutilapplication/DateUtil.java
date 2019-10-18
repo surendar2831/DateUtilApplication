@@ -17,6 +17,8 @@ import static com.stfalcon.chatkit.utils.DateFormatter.isSameDay;
 
 public class DateUtil {
 
+    //check this
+
     public JSONObject getOnlyDateFromTimeStamp(@NonNull String dateTimeStamp) {
         Date date = null;
         String dayString = "", day = "", monthName = "", month = "", year = "";
